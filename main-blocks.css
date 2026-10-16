@@ -1,0 +1,277 @@
+/* Main-page refinements from the supplied revision document. */
+#concept .section-intro h2,
+#formats .section-heading h2,
+#support .section-heading h2 {
+  text-wrap: balance;
+}
+
+#concept .section-intro .lead {
+  max-width: 490px;
+}
+
+#concept .photo-label {
+  width: min(300px, 88%);
+  padding: 18px 22px;
+}
+
+#concept .photo-label small {
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+#concept .concept-features article {
+  min-width: 0;
+}
+
+#concept .concept-features h3 {
+  margin-top: 0;
+}
+
+#concept .concept-features p {
+  font-size: 14px;
+  line-height: 1.75;
+  max-width: 350px;
+}
+
+#formats .section-heading > div,
+#support .section-heading > div {
+  min-width: 0;
+}
+
+#formats .section-heading h2 {
+  max-width: 760px;
+}
+
+#support .section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 36px;
+}
+
+#support .section-heading > .text-link {
+  max-width: 320px;
+  margin-bottom: 6px;
+}
+
+#formats .format-photo {
+  min-height: 0;
+}
+
+#formats .format-content {
+  min-width: 0;
+  padding: 32px 36px;
+}
+
+#formats .format-content > p {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+#formats .investment {
+  padding-block: 20px 16px;
+}
+
+#formats .investment > span,
+#formats .format-numbers dt {
+  font-size: 12px;
+}
+
+#formats .format-numbers {
+  margin-block: 18px;
+  gap: 16px;
+}
+
+#formats .format-content .text-link {
+  margin-top: 14px;
+  font-size: 12px;
+}
+
+#formats .format-footnote {
+  justify-content: flex-end;
+  margin-top: 22px;
+}
+
+#formats .format-performance {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 32px 0 0;
+  border-radius: 9px;
+  background: #fff;
+  overflow: hidden;
+}
+
+#formats .format-performance > div {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  min-width: 0;
+  padding: 34px 40px;
+}
+
+#formats .format-performance > div:nth-child(odd) {
+  border-right: 1px solid var(--line);
+}
+
+#formats .format-performance > div:nth-child(-n + 2) {
+  border-bottom: 1px solid var(--line);
+}
+
+#formats .format-performance dt {
+  color: #1a1a1a;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#formats .format-performance dd {
+  order: -1;
+  margin: 0;
+  color: #1a1a1a;
+  font-size: clamp(32px, 4.2vw, 56px);
+  font-weight: 650;
+  line-height: 1.1;
+  letter-spacing: -.04em;
+}
+
+#formats .format-performance small {
+  font-size: .55em;
+  font-weight: 500;
+  letter-spacing: -.02em;
+}
+
+#opening .step-footer {
+  justify-content: flex-end;
+}
+
+#partners,
+#opening {
+  background: #f4f2eb;
+}
+
+#partners .partner-reviews-note {
+  display: block;
+  margin-top: 16px;
+}
+
+@media (max-width: 960px) {
+  #support .section-heading {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  #support .section-heading > .text-link {
+    justify-self: start;
+    margin-bottom: 0;
+  }
+
+  #formats .format-content {
+    padding: 28px;
+  }
+
+  #formats .format-performance > div {
+    padding: 28px;
+  }
+
+  #formats .section-heading h2,
+  #support .section-heading h2 {
+    font-size: clamp(36px, 4.2vw, 48px);
+  }
+}
+
+@media (max-width: 620px) {
+  #concept .section-intro h2 {
+    font-size: clamp(32px, 8.7vw, 39px);
+  }
+
+  #concept .concept-features article {
+    display: block;
+  }
+
+  #concept .concept-features h3 {
+    margin-bottom: 10px;
+  }
+
+  #concept .concept-features p {
+    grid-column: auto;
+    max-width: none;
+    font-size: 15px;
+  }
+
+  #concept .photo-label {
+    padding: 15px 18px;
+  }
+
+  #concept .photo-label small {
+    font-size: 13px;
+  }
+
+  #formats .section-heading h2,
+  #support .section-heading h2 {
+    font-size: clamp(31px, 8.5vw, 39px);
+  }
+
+  #formats .format-photo {
+    aspect-ratio: 1.65;
+  }
+
+  #formats .format-content {
+    padding: 24px 22px;
+  }
+
+  #formats .format-content h3 {
+    font-size: clamp(26px, 7.5vw, 30px);
+  }
+
+  #formats .format-tabs button {
+    font-size: 13px;
+  }
+
+  #formats .investment strong {
+    font-size: 46px;
+  }
+
+  #formats .format-numbers {
+    gap: 18px 12px;
+  }
+
+  #formats .format-footnote .button {
+    width: 100%;
+  }
+
+  #formats .format-performance {
+    grid-template-columns: 1fr;
+    margin-top: 24px;
+  }
+
+  #formats .format-performance > div {
+    gap: 10px;
+    padding: 25px 24px;
+  }
+
+  #formats .format-performance > div:nth-child(odd) {
+    border-right: 0;
+  }
+
+  #formats .format-performance > div:not(:last-child) {
+    border-bottom: 1px solid var(--line);
+  }
+
+  #formats .format-performance dd {
+    font-size: clamp(32px, 9vw, 42px);
+  }
+
+  #formats .format-performance dt {
+    font-size: 14px;
+  }
+
+  #partners .partner-copy h2 {
+    font-size: clamp(31px, 8.4vw, 37px);
+  }
+
+  #partners .partner-copy .lead {
+    font-size: 15px;
+  }
+}

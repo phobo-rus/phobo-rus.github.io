@@ -1,0 +1,40 @@
+/* The same photo lists power the home and detailed format galleries. */
+.format-gallery {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #e8e8e2;
+}
+
+.format-photo > .format-gallery {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  aspect-ratio: auto;
+  border-radius: 0;
+}
+
+.format-gallery > .format-gallery__slide {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  border-radius: 0;
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+
+.format-gallery > .format-gallery__slide.is-active {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .format-gallery > .format-gallery__slide {
+    transition: none;
+  }
+}

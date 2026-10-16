@@ -1,0 +1,44 @@
+/* Full-width gallery inside the shared detail layout. */
+.article-layout:has(.fr-reviews){grid-template-columns:minmax(0,1fr);gap:35px}
+.article-layout:has(.fr-reviews)>.article-sidebar{position:static;margin-top:0;display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;padding:32px 36px}
+.article-layout:has(.fr-reviews)>.article-sidebar>.eyebrow{grid-column:1/-1;margin-bottom:0}
+.article-layout:has(.fr-reviews)>.article-sidebar>h2{font-size:30px;margin:0}
+.article-layout:has(.fr-reviews)>.article-sidebar>p:not(.eyebrow){grid-column:1;margin:0}
+.article-layout:has(.fr-reviews)>.article-sidebar>.button{grid-column:2;grid-row:2/4;justify-self:end;align-self:center;margin:0}
+.article-layout:has(.fr-reviews)>.article-sidebar>nav{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:12px 25px;border-top:1px solid #cbd5c9;padding-top:17px;margin-top:13px}
+.fr-reviews{--fr-green:#1b6457;--fr-red:#ae2222;max-width:100%;min-width:0}
+.fr-reviews .fr-filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 30px}
+.fr-reviews .fr-filter{display:inline-flex;align-items:center;justify-content:center;gap:11px;min-height:48px;padding:13px 19px;border:1px solid #c5d2c6;border-radius:9px;background:#fff;color:#294b3e;font-family:inherit;font-size:12px;font-weight:650;line-height:1.4;transition:background .18s,color .18s,border-color .18s}
+.fr-reviews .fr-filter>span{font-size:10px;opacity:.7}
+.fr-reviews .fr-filter[aria-pressed=true]{background:var(--fr-green);border-color:var(--fr-green);color:#fff}
+.fr-reviews .fr-filter:hover{border-color:var(--fr-green)}
+.fr-reviews .fr-filter:focus-visible,.fr-reviews .fr-load-more:focus-visible{outline:3px solid #d98527;outline-offset:4px}
+.fr-reviews .fr-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;align-items:start}
+.fr-reviews .fr-card{--fr-card-bg:#fff;--fr-card-fg:#172c25;--fr-card-muted:#66766b;--fr-reply-bg:#f1f4ee;--fr-border:#d8dfd3;min-width:0;display:flex;flex-direction:column;gap:18px;background:var(--fr-card-bg);color:var(--fr-card-fg);border:1px solid var(--fr-border);border-radius:16px;padding:25px 21px}
+.fr-reviews .fr-card:focus{outline:3px solid #d98527;outline-offset:4px}
+.fr-reviews .fr-theme-green{--fr-card-bg:#1b6457;--fr-card-fg:#fff;--fr-card-muted:#dbe6dc;--fr-reply-bg:#f7f7f0;--fr-border:#1b6457}
+.fr-reviews .fr-theme-milk{--fr-card-bg:#e9eee2;--fr-reply-bg:#fff;--fr-border:#dbe2d2}
+.fr-reviews .fr-theme-red{--fr-card-bg:#ae2222;--fr-card-fg:#fff;--fr-card-muted:#f5dddd;--fr-reply-bg:#fff8f2;--fr-border:#ae2222}
+.fr-reviews .fr-person{display:flex;gap:12px;align-items:center}
+.fr-reviews .fr-person>div{min-width:0}
+.fr-reviews .fr-avatar{width:43px;height:43px;display:grid;place-items:center;flex-shrink:0;border-radius:50%;background:#1b645710;border:1px solid #1b645722;color:var(--fr-card-fg);font-size:14px;font-weight:650;letter-spacing:-.03em}
+.fr-reviews .fr-theme-green .fr-avatar,.fr-reviews .fr-theme-red .fr-avatar{background:#ffffff15;border-color:#ffffff40}
+.fr-reviews .fr-person h3{font-size:17px;line-height:1.25;letter-spacing:-.03em;color:var(--fr-card-fg);margin:0}
+.fr-reviews .fr-person p{font-size:10px;line-height:1.5;color:var(--fr-card-muted);margin:5px 0 0;overflow-wrap:anywhere}
+.fr-reviews .fr-sentiment{align-self:flex-start;font-size:9px;line-height:1.4;padding:4px 8px;border-radius:30px;border:1px solid currentColor;opacity:.7}
+.fr-reviews .fr-text p{font-size:12px;line-height:1.8;color:var(--fr-card-fg);margin:0 0 12px;overflow-wrap:anywhere}
+.fr-reviews .fr-text p:last-child{margin-bottom:0}
+.fr-reviews.is-ready .fr-card:not([data-expanded=true]) .fr-text{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden}
+.fr-reviews .fr-read-more{align-self:flex-start;padding:0 0 4px;margin-top:-7px;border:0;border-bottom:1px solid currentColor;background:none;color:var(--fr-card-fg);font-size:10px;line-height:1.5;font-weight:650;text-align:left}
+.fr-reviews .fr-read-more:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.fr-reviews .fr-reply{padding:18px 15px;background:var(--fr-reply-bg);color:#243a2e;border-radius:10px;margin-top:3px}
+.fr-reviews .fr-reply h4{font-size:10px;font-weight:700;line-height:1.4;margin:0 0 9px;letter-spacing:0}
+.fr-reviews .fr-reply p{font-size:11px;line-height:1.7;color:#516254;margin:0;overflow-wrap:anywhere}
+.fr-reviews .fr-bottom{display:flex;align-items:center;justify-content:center;gap:25px;flex-wrap:wrap;margin-top:32px}
+.fr-reviews .fr-load-more{min-height:50px;padding:14px 28px;border-radius:7px;background:#1b6457;color:#fff;font-size:12px;font-weight:600;line-height:1.4}
+.fr-reviews .fr-load-more:hover{background:#164c42}
+.fr-reviews .fr-count{font-size:11px;color:#627368;margin:0;line-height:1.5}
+.fr-reviews .fr-empty{padding:35px 0;font-size:15px}
+@media(max-width:1120px){.fr-reviews .fr-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.fr-reviews .fr-card{padding:26px}.fr-reviews .fr-person h3{font-size:19px}.fr-reviews .fr-text p{font-size:13px}.fr-reviews .fr-reply p{font-size:12px}}
+@media(max-width:600px){.fr-reviews .fr-filters{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:22px}.fr-reviews .fr-filter{font-size:10px;padding:11px 10px;gap:7px;min-height:46px}.fr-reviews .fr-grid{grid-template-columns:minmax(0,1fr);gap:16px}.fr-reviews .fr-card{padding:24px;gap:17px}.fr-reviews .fr-person h3{font-size:20px}.fr-reviews .fr-person p{font-size:11px}.fr-reviews .fr-avatar{width:48px;height:48px;font-size:15px}.fr-reviews .fr-text p{font-size:13px;line-height:1.8}.fr-reviews .fr-sentiment{font-size:10px}.fr-reviews .fr-read-more{font-size:11px}.fr-reviews .fr-reply{padding:19px}.fr-reviews .fr-reply h4{font-size:11px}.fr-reviews .fr-reply p{font-size:12px}.fr-reviews .fr-bottom{gap:18px;margin-top:25px}.fr-reviews .fr-load-more{width:100%}.article-layout:has(.fr-reviews)>.article-sidebar{display:flex;flex-direction:column;padding:27px;gap:12px}.article-layout:has(.fr-reviews)>.article-sidebar>.button{align-self:flex-start;margin-top:7px}.article-layout:has(.fr-reviews)>.article-sidebar>nav{display:grid;gap:10px;width:100%}}
+@media(prefers-reduced-motion:reduce){.fr-reviews *{transition:none!important;animation:none!important}}

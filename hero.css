@@ -1,0 +1,522 @@
+
+  /* =========================
+     PHOBO FRANCHISE — HERO
+     ========================= */
+
+  .phobo-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 850px;
+    overflow: hidden;
+
+    background: #07110f;
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #ffffff;
+  }
+
+
+  /* =========================
+     VIDEO
+     ========================= */
+
+  .phobo-hero__video {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .phobo-hero__video iframe {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    width: 177.7777778vh;
+    height: 56.25vw;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    transform: translate(-50%, -50%);
+
+    border: 0;
+    pointer-events: none;
+  }
+
+
+  /* =========================
+     VIDEO DARKENING
+     ========================= */
+
+  .phobo-hero__overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+    background:
+      radial-gradient(
+        circle at center,
+        rgba(3, 10, 8, 0.30) 0%,
+        rgba(3, 10, 8, 0.38) 35%,
+        rgba(3, 10, 8, 0.52) 100%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(3, 10, 8, 0.15) 0%,
+        rgba(3, 10, 8, 0.10) 45%,
+        rgba(3, 10, 8, 0.42) 100%
+      );
+  }
+
+
+  /* =========================
+     CONTENT
+     ========================= */
+
+  .phobo-hero__content {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 30px;
+    box-sizing: border-box;
+  }
+
+  .phobo-hero__inner {
+    width: 100%;
+    max-width: 1050px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+
+
+  /* =========================
+     TITLE
+     ========================= */
+
+  .phobo-hero__title {
+    margin: 0;
+
+    font-size: clamp(64px, 5.7vw, 100px);
+    line-height: 1;
+    letter-spacing: -3px;
+
+    font-weight: 800;
+    color: #ffffff;
+  }
+
+  .phobo-hero__title-top {
+    display: block;
+    color: #ffffff;
+  }
+
+  /* Дополнительное расстояние между строками */
+  .phobo-hero__title-brand {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .phobo-hero__title-pho {
+    color: #ffffff;
+  }
+
+  .phobo-hero__title-bo {
+    color: #AE2222;
+  }
+
+
+  /* =========================
+     SUBTITLE
+     ========================= */
+
+  .phobo-hero__subtitle {
+    margin: 28px 0 0;
+
+    font-size: 25px;
+    line-height: 1.35;
+
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+
+  /* =========================
+     METRICS
+     ========================= */
+
+  .phobo-hero__metrics {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    margin-top: 48px;
+  }
+
+  .phobo-metric {
+    width: 245px;
+    padding: 0 38px;
+
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .phobo-metric + .phobo-metric {
+    border-left: 1px solid rgba(255, 255, 255, 0.48);
+  }
+
+  .phobo-metric__prefix {
+    display: block;
+
+    margin-bottom: 6px;
+
+    font-size: 14px;
+    line-height: 1;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .phobo-metric__value {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    white-space: nowrap;
+
+    font-size: 62px;
+    line-height: 1;
+
+    font-weight: 700;
+    letter-spacing: -2px;
+
+    color: #ffffff;
+  }
+
+  .phobo-metric__value-small {
+    margin-left: 7px;
+
+    font-size: 27px;
+    line-height: 1;
+
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  .phobo-metric__label {
+    display: block;
+
+    margin-top: 13px;
+
+    font-size: 13px;
+    line-height: 1.3;
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+
+  /* =========================
+     BUTTONS
+     ========================= */
+
+  .phobo-hero__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 34px;
+
+    margin-top: 48px;
+  }
+
+  .phobo-hero__main-btn {
+    min-width: 410px;
+    min-height: 68px;
+
+    padding: 0 34px;
+
+    box-sizing: border-box;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 28px;
+
+    border-radius: 100px;
+
+    background: #AE2222;
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 16px;
+    line-height: 1.2;
+
+    font-weight: 600;
+
+    transition:
+      transform 0.25s ease,
+      background 0.25s ease;
+  }
+
+  .phobo-hero__main-btn:hover {
+    background: #c12a2a;
+    transform: translateY(-2px);
+  }
+
+  .phobo-hero__arrow {
+    font-size: 23px;
+    line-height: 1;
+    font-weight: 300;
+  }
+
+
+  /* VIDEO BUTTON */
+
+  .phobo-hero__video-btn {
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    text-align: left;
+
+    font-size: 16px;
+    line-height: 1.3;
+
+    font-weight: 500;
+  }
+
+  .phobo-hero__play {
+    width: 58px;
+    height: 58px;
+
+    flex: 0 0 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+
+    transition:
+      transform 0.25s ease,
+      background 0.25s ease;
+  }
+
+  .phobo-hero__video-btn:hover .phobo-hero__play {
+    transform: scale(1.06);
+    background: rgba(255, 255, 255, 0.14);
+  }
+
+  .phobo-hero__triangle {
+    width: 0;
+    height: 0;
+
+    margin-left: 5px;
+
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 13px solid #ffffff;
+  }
+
+
+  /* =========================
+     TABLET
+     ========================= */
+
+  @media (max-width: 1199px) {
+
+    .phobo-hero {
+      min-height: 780px;
+    }
+
+    .phobo-hero__inner {
+      max-width: 900px;
+    }
+
+    .phobo-hero__title {
+      font-size: 72px;
+    }
+
+    .phobo-metric {
+      width: 215px;
+      padding: 0 28px;
+    }
+
+    .phobo-metric__value {
+      font-size: 52px;
+    }
+
+    .phobo-metric__value-small {
+      font-size: 22px;
+    }
+  }
+
+
+  /* =========================
+     MOBILE
+     ========================= */
+
+  @media (max-width: 767px) {
+
+    .phobo-hero {
+      height: 100svh;
+      min-height: 720px;
+    }
+
+    .phobo-hero__overlay {
+      background:
+        radial-gradient(
+          circle at center,
+          rgba(3, 10, 8, 0.42) 0%,
+          rgba(3, 10, 8, 0.60) 100%
+        );
+    }
+
+    .phobo-hero__content {
+      padding: 35px 20px;
+    }
+
+    .phobo-hero__title {
+      font-size: clamp(44px, 13vw, 61px);
+      line-height: 1;
+      letter-spacing: -2px;
+    }
+
+    .phobo-hero__title-brand {
+      margin-top: 10px;
+    }
+
+    .phobo-hero__subtitle {
+      margin-top: 22px;
+
+      font-size: 18px;
+      line-height: 1.35;
+    }
+
+    .phobo-hero__metrics {
+      width: 100%;
+
+      margin-top: 38px;
+    }
+
+    .phobo-metric {
+      width: 33.333%;
+      padding: 0 10px;
+    }
+
+    .phobo-metric__prefix {
+      font-size: 10px;
+    }
+
+    .phobo-metric__value {
+      font-size: 34px;
+      letter-spacing: -1px;
+    }
+
+    .phobo-metric__value-small {
+      margin-left: 4px;
+      font-size: 14px;
+    }
+
+    .phobo-metric__label {
+      margin-top: 9px;
+
+      font-size: 9px;
+      line-height: 1.2;
+    }
+
+    .phobo-hero__actions {
+      width: 100%;
+
+      flex-direction: column;
+
+      gap: 20px;
+
+      margin-top: 38px;
+    }
+
+    .phobo-hero__main-btn {
+      width: 100%;
+      min-width: 0;
+
+      min-height: 58px;
+
+      padding: 0 22px;
+
+      font-size: 14px;
+    }
+
+    .phobo-hero__video-btn {
+      font-size: 14px;
+    }
+
+    .phobo-hero__play {
+      width: 48px;
+      height: 48px;
+
+      flex-basis: 48px;
+    }
+  }
+
+
+  /* =========================
+     SMALL MOBILE
+     ========================= */
+
+  @media (max-width: 390px) {
+
+    .phobo-hero__title {
+      font-size: 42px;
+    }
+
+    .phobo-metric {
+      padding: 0 7px;
+    }
+
+    .phobo-metric__value {
+      font-size: 29px;
+    }
+
+    .phobo-metric__value-small {
+      font-size: 12px;
+    }
+
+    .phobo-metric__label {
+      font-size: 8px;
+    }
+  }
+
+
+/* Keep the original composition and a stable frame throughout video loops. */
+.phobo-hero { isolation:isolate; }
+.phobo-hero__video { z-index:0; container-type:size; }
+.phobo-hero .hero-poster { z-index:0; object-fit:cover; object-position:center; }
+.phobo-hero__video iframe { width:max(100cqw,177.7778cqh); height:max(56.25cqw,100cqh); }
+.phobo-hero__video iframe[data-ready=true] { opacity:1; }
+.phobo-hero__title { max-width:none; }
+.phobo-hero__content { padding-bottom:70px; }
+.phobo-hero__video-btn { background:transparent; padding:0; }
+@media(max-width:767px){.phobo-hero__content{padding-bottom:88px}}
+@media(prefers-reduced-motion:reduce){.phobo-hero__main-btn,.phobo-hero__play,.phobo-hero__video iframe{transition:none}}

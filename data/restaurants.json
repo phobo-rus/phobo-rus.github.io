@@ -1,0 +1,877 @@
+[
+  {
+    "id": "0087",
+    "name": "PhoBo · Белинского",
+    "country": "ru",
+    "city": "Нижний Новгород",
+    "address": "Нижний Новгород, улица Белинского, 61",
+    "lat": 56.316679,
+    "lng": 44.01949,
+    "location_precision": "address"
+  },
+  {
+    "id": "0086",
+    "name": "PhoBo · Узеира Гаджибекова",
+    "country": "az",
+    "city": "Баку",
+    "address": "Баку, улица Узеира Гаджибекова, 75, AZ1010",
+    "lat": 40.37507,
+    "lng": 49.852537,
+    "location_precision": "address",
+    "status_label": "Готовится к открытию"
+  },
+  {
+    "id": "0085",
+    "name": "PhoBo · Азия Молл",
+    "country": "kg",
+    "city": "Бишкек",
+    "address": "Бишкек, проспект Чынгыза Айтматова, 3, ТРЦ Asia Mall",
+    "lat": 42.855597,
+    "lng": 74.58498,
+    "location_precision": "address",
+    "status_label": "Готовится к открытию"
+  },
+  {
+    "id": "0084",
+    "name": "PhoBo · Вегас Сити",
+    "country": "ru",
+    "city": "Красногорск",
+    "address": "Московская область, Красногорск, Международная улица, 12, ТРК VEGAS Сити",
+    "lat": 55.820937,
+    "lng": 37.387738,
+    "location_precision": "address",
+    "status_label": "Готовится к открытию"
+  },
+  {
+    "id": "0083",
+    "name": "PhoBo · Лермонтова",
+    "country": "ru",
+    "city": "Якутск",
+    "address": "Якутск, улица Лермонтова",
+    "lat": 62.027699,
+    "lng": 129.701487,
+    "location_precision": "street",
+    "status_label": "Планируется открытие"
+  },
+  {
+    "id": "0082",
+    "name": "PhoBo · Фестиваль",
+    "country": "ae",
+    "city": "Дубай",
+    "address": "ОАЭ, Дубай, Аль-Хиран, Дубай Фестиваль Сити",
+    "lat": 25.2231817,
+    "lng": 55.3480549,
+    "location_precision": "address"
+  },
+  {
+    "id": "0081",
+    "name": "PhoBo · Фабрика",
+    "country": "ge",
+    "city": "Тбилиси",
+    "address": "Грузия, Тбилиси, улица Эгнате Ниношвили, 3А",
+    "lat": 41.7095926,
+    "lng": 44.803144,
+    "location_precision": "address"
+  },
+  {
+    "id": "0080",
+    "name": "PhoBo · Европа",
+    "country": "ru",
+    "city": "Калининград",
+    "address": "Калининград, ул. Театральная, 30",
+    "lat": 54.718115,
+    "lng": 20.500337,
+    "location_precision": "address",
+    "status_label": "Готовится к открытию"
+  },
+  {
+    "id": "0079",
+    "name": "PhoBo · Матвеевское",
+    "country": "ru",
+    "city": "Хабаровск",
+    "address": "Хабаровск, Матвеевское шоссе, д. 28Б",
+    "lat": 48.525951,
+    "lng": 135.170714,
+    "location_precision": "address"
+  },
+  {
+    "id": "0078",
+    "name": "PhoBo · Фудмолл",
+    "country": "ru",
+    "city": "Ставрополь",
+    "address": "Ставрополь, ул. Ленина, д. 308",
+    "lat": 45.038789,
+    "lng": 41.963774,
+    "location_precision": "address"
+  },
+  {
+    "id": "0077",
+    "name": "PhoBo · Низами",
+    "country": "az",
+    "city": "Баку",
+    "address": "Азербайджан, Баку, улица Низами, 19",
+    "lat": 40.369855,
+    "lng": 49.828893,
+    "location_precision": "address"
+  },
+  {
+    "id": "0076",
+    "name": "PhoBo · Европа Сити Молл",
+    "country": "ab",
+    "city": "Гагра",
+    "address": "Абхазия, Гагра, улица Абазгаа, ТЦ «Европа Сити Молл»",
+    "lat": 43.270659,
+    "lng": 40.268118,
+    "location_precision": "address"
+  },
+  {
+    "id": "0075",
+    "name": "PhoBo · Краски",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Рождественская улица, 20",
+    "lat": 55.705577,
+    "lng": 37.925808,
+    "location_precision": "address"
+  },
+  {
+    "id": "0074",
+    "name": "PhoBo · Променад",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Парк Горького, Пушкинская набережная",
+    "lat": 55.729404,
+    "lng": 37.597292,
+    "location_precision": "address"
+  },
+  {
+    "id": "0073",
+    "name": "PhoBo · ЦУМ",
+    "country": "kg",
+    "city": "Бишкек",
+    "address": "Кыргызстан, Бишкек, проспект Чуй, 155, ЦУМ «Айчурек»",
+    "lat": 42.875937,
+    "lng": 74.614746,
+    "location_precision": "address"
+  },
+  {
+    "id": "0072",
+    "name": "PhoBo · Депо",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Лесная улица, 20",
+    "lat": 55.780084,
+    "lng": 37.591992,
+    "location_precision": "address"
+  },
+  {
+    "id": "0071",
+    "name": "PhoBo · Планета",
+    "country": "ru",
+    "city": "Новокузнецк",
+    "address": "Новокузнецк, улица ДОЗ, 10А",
+    "lat": 53.780363,
+    "lng": 87.126045,
+    "location_precision": "address"
+  },
+  {
+    "id": "0070",
+    "name": "PhoBo · Вавилон",
+    "country": "ru",
+    "city": "Ростов-на-Дону",
+    "address": "Ростов-на-Дону, улица Малиновского, 25",
+    "lat": 47.230511,
+    "lng": 39.610682,
+    "location_precision": "address"
+  },
+  {
+    "id": "0069",
+    "name": "PhoBo · Сильвер",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Серебряническая набережная, 29",
+    "lat": 55.750522,
+    "lng": 37.65335,
+    "location_precision": "address"
+  },
+  {
+    "id": "0068",
+    "name": "PhoBo · Небо",
+    "country": "ru",
+    "city": "Нижний Новгород",
+    "address": "Нижний Новгород, ул. Большая Покровская, д. 82",
+    "lat": 56.308975,
+    "lng": 43.987292,
+    "location_precision": "address"
+  },
+  {
+    "id": "0067",
+    "name": "PhoBo · Базари",
+    "country": "ge",
+    "city": "Тбилиси",
+    "address": "Грузия, Тбилиси, улица Векуа, 3А",
+    "lat": 41.69758,
+    "lng": 44.803762,
+    "location_precision": "address"
+  },
+  {
+    "id": "0066",
+    "name": "PhoBo · Галерея",
+    "country": "ru",
+    "city": "Санкт-Петербург",
+    "address": "Санкт-Петербург, пр-т Лиговский, д. 30, лит. А",
+    "lat": 59.927563,
+    "lng": 30.360613,
+    "location_precision": "address"
+  },
+  {
+    "id": "0065",
+    "name": "PhoBo · Фукуок",
+    "country": "vn",
+    "city": "Фукуок",
+    "address": "Вьетнам, провинция Кьензянг, остров Фукуок, Антхой",
+    "lat": 10.033406854163246,
+    "lng": 104.00487047116472,
+    "location_precision": "address"
+  },
+  {
+    "id": "0064",
+    "name": "PhoBo · Лазаревское",
+    "country": "ru",
+    "city": "Сочи",
+    "address": "Сочи, Социалистическая улица, 8/10",
+    "lat": 43.910986,
+    "lng": 39.325458,
+    "location_precision": "address"
+  },
+  {
+    "id": "0063",
+    "name": "PhoBo · Навагинская",
+    "country": "ru",
+    "city": "Сочи",
+    "address": "Сочи, Центральный район, Навагинская улица, 7/3",
+    "lat": 43.58687,
+    "lng": 39.722783,
+    "location_precision": "address"
+  },
+  {
+    "id": "0062",
+    "name": "PhoBo · Лужники",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, улица Лужники, 24, строение 1",
+    "lat": 55.717691,
+    "lng": 37.557824,
+    "location_precision": "address"
+  },
+  {
+    "id": "0061",
+    "name": "PhoBo · Парк Горького",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, улица Крымский Вал, земельный участок 9",
+    "lat": 55.7298,
+    "lng": 37.6029,
+    "location_precision": "address"
+  },
+  {
+    "id": "0060",
+    "name": "PhoBo · Небо",
+    "country": "ru",
+    "city": "Санкт-Петербург",
+    "address": "Ленинградская область, Мурино, Романовская улица, 1/31, ТЦ «Небо»",
+    "lat": 60.068365,
+    "lng": 30.436209,
+    "location_precision": "address"
+  },
+  {
+    "id": "0059",
+    "name": "PhoBo · Веер Молл",
+    "country": "ru",
+    "city": "Екатеринбург",
+    "address": "Екатеринбург, проспект Космонавтов, 108Д, ТРЦ «Веер Молл»",
+    "lat": 56.91666,
+    "lng": 60.613178,
+    "location_precision": "address"
+  },
+  {
+    "id": "0058",
+    "name": "PhoBo · Боше",
+    "country": "ru",
+    "city": "Старый Оскол",
+    "address": "Старый Оскол, микрорайон Ольминского, 17",
+    "lat": 51.309224,
+    "lng": 37.873053,
+    "location_precision": "address"
+  },
+  {
+    "id": "0057",
+    "name": "PhoBo · Аура",
+    "country": "ru",
+    "city": "Новосибирск",
+    "address": "Новосибирск, Военная улица, 5, ТРЦ «Аура»",
+    "lat": 55.028432,
+    "lng": 82.93664,
+    "location_precision": "address"
+  },
+  {
+    "id": "0056",
+    "name": "PhoBo · Юго-Западная",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, проспект Вернадского, 86В",
+    "lat": 55.661824,
+    "lng": 37.479969,
+    "location_precision": "address"
+  },
+  {
+    "id": "0055",
+    "name": "PhoBo · Анрапетутян",
+    "country": "am",
+    "city": "Ереван",
+    "address": "Армения, Ереван, улица Анрапетутян, 71",
+    "lat": 40.178499,
+    "lng": 44.520011,
+    "location_precision": "address"
+  },
+  {
+    "id": "0054",
+    "name": "PhoBo · Вокруг Света",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Никольская улица, 10",
+    "lat": 55.757737,
+    "lng": 37.624259,
+    "location_precision": "address"
+  },
+  {
+    "id": "0053",
+    "name": "PhoBo · Проспект",
+    "country": "ru",
+    "city": "Воронеж",
+    "address": "Воронеж, Московский проспект, 129/1, ТРЦ «Московский проспект»",
+    "lat": 51.717722,
+    "lng": 39.177332,
+    "location_precision": "address"
+  },
+  {
+    "id": "0052",
+    "name": "PhoBo · Павелецкая",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Садовническая набережная, 75",
+    "lat": 55.736482,
+    "lng": 37.640533,
+    "location_precision": "address"
+  },
+  {
+    "id": "0051",
+    "name": "PhoBo · Планета",
+    "country": "ru",
+    "city": "Красноярск",
+    "address": "Красноярск, улица 9 Мая, 77",
+    "lat": 56.050055,
+    "lng": 92.903361,
+    "location_precision": "address"
+  },
+  {
+    "id": "0050",
+    "name": "PhoBo · Камергерский",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Камергерский переулок, 6/5, строение 3",
+    "lat": 55.760033,
+    "lng": 37.614038,
+    "location_precision": "address"
+  },
+  {
+    "id": "0049",
+    "name": "PhoBo · Эсамбаева",
+    "country": "ru",
+    "city": "Грозный",
+    "address": "Грозный, бульвар М. А. Эсамбаева, 5",
+    "lat": 43.322144,
+    "lng": 45.686453,
+    "location_precision": "address"
+  },
+  {
+    "id": "0048",
+    "name": "PhoBo · Мега",
+    "country": "ru",
+    "city": "Екатеринбург",
+    "address": "Екатеринбург, улица Металлургов, 87, ТЦ «МЕГА»",
+    "lat": 56.824057,
+    "lng": 60.505101,
+    "location_precision": "address"
+  },
+  {
+    "id": "0047",
+    "name": "PhoBo · Фудмаркет",
+    "country": "ru",
+    "city": "Краснодар",
+    "address": "Краснодар, Красная улица, 176/5с1, Фудмаркет «Центр Города»",
+    "lat": 45.044769,
+    "lng": 38.979499,
+    "location_precision": "address"
+  },
+  {
+    "id": "0046",
+    "name": "PhoBo · Фуд Холл",
+    "country": "ru",
+    "city": "Ростов-на-Дону",
+    "address": "Ростов-на-Дону, Большая Садовая улица, 67",
+    "lat": 47.222602,
+    "lng": 39.717573,
+    "location_precision": "address"
+  },
+  {
+    "id": "0045",
+    "name": "PhoBo · Котельники",
+    "country": "ru",
+    "city": "Котельники",
+    "address": "Московская область, Котельники, Новорязанское шоссе, 24",
+    "lat": 55.65913,
+    "lng": 37.886674,
+    "location_precision": "address"
+  },
+  {
+    "id": "0044",
+    "name": "PhoBo · Дыбенко",
+    "country": "ru",
+    "city": "Санкт-Петербург",
+    "address": "Ленинградская область, Кудрово, Мурманское шоссе, 1, «МЕГА Дыбенко»",
+    "lat": 59.893439,
+    "lng": 30.517799,
+    "location_precision": "address"
+  },
+  {
+    "id": "0043",
+    "name": "PhoBo · Марина",
+    "country": "ae",
+    "city": "Дубай",
+    "address": "ОАЭ, Дубай, Джумейра, Дубай Марина, улица Эт-Таррес, 14",
+    "lat": 25.081974,
+    "lng": 55.145488,
+    "location_precision": "address"
+  },
+  {
+    "id": "0042",
+    "name": "PhoBo · Энергия",
+    "country": "ru",
+    "city": "Рязань",
+    "address": "Рязань, Новослободская улица, 17",
+    "lat": 54.630398,
+    "lng": 39.745213,
+    "location_precision": "address"
+  },
+  {
+    "id": "0041",
+    "name": "PhoBo · Глобус Королёв",
+    "country": "ru",
+    "city": "Королёв",
+    "address": "Московская область, Королёв, Коммунальная улица, 1, «Глобус»",
+    "lat": 55.916281,
+    "lng": 37.845994,
+    "location_precision": "address"
+  },
+  {
+    "id": "0040",
+    "name": "PhoBo · Новоспасский",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Дербеневская набережная, 7, строение 22",
+    "lat": 55.722293,
+    "lng": 37.651876,
+    "location_precision": "address"
+  },
+  {
+    "id": "0039",
+    "name": "PhoBo · Глобус Климовск",
+    "country": "ru",
+    "city": "Подольск",
+    "address": "Московская область, Подольск, микрорайон Климовск, Молодёжная улица, 11, «Глобус»",
+    "lat": 55.385547,
+    "lng": 37.544987,
+    "location_precision": "address"
+  },
+  {
+    "id": "0038",
+    "name": "PhoBo · Арбат",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, улица Арбат, 13",
+    "lat": 55.751364,
+    "lng": 37.597331,
+    "location_precision": "address"
+  },
+  {
+    "id": "0037",
+    "name": "PhoBo · Европарк",
+    "country": "ru",
+    "city": "Архангельск",
+    "address": "Архангельск, Троицкий проспект, 17, ТРЦ «Европарк»",
+    "lat": 64.53204,
+    "lng": 40.529333,
+    "location_precision": "address"
+  },
+  {
+    "id": "0036",
+    "name": "PhoBo · Жемчужина",
+    "country": "ru",
+    "city": "Санкт-Петербург",
+    "address": "Санкт-Петербург, Петергофское шоссе, 51, литера А, ТРК «Жемчужная Плаза»",
+    "lat": 59.849365,
+    "lng": 30.143539,
+    "location_precision": "address"
+  },
+  {
+    "id": "0035",
+    "name": "PhoBo · Пермь",
+    "country": "ru",
+    "city": "Пермь",
+    "address": "Пермь, Петропавловская улица, 73А, ТРЦ «Эспланада»",
+    "lat": 58.011696,
+    "lng": 56.228165,
+    "location_precision": "address"
+  },
+  {
+    "id": "0034",
+    "name": "PhoBo · МЕГА Белая Дача · 2",
+    "country": "ru",
+    "city": "Котельники",
+    "address": "Московская область, Котельники, 1-й Покровский проезд, 1",
+    "lat": 55.657876,
+    "lng": 37.846998,
+    "location_precision": "address"
+  },
+  {
+    "id": "0033",
+    "name": "PhoBo · Коммунарка",
+    "country": "ru",
+    "city": "посёлок Коммунарка",
+    "address": "Москва, улица Александры Монаховой, 61, строение 1",
+    "lat": 55.556617,
+    "lng": 37.494297,
+    "location_precision": "address"
+  },
+  {
+    "id": "0032",
+    "name": "PhoBo · Родео",
+    "country": "ru",
+    "city": "Санкт-Петербург",
+    "address": "Санкт-Петербург, проспект Культуры, 1, ТРК «Родео Драйв»",
+    "lat": 60.033604,
+    "lng": 30.367421,
+    "location_precision": "address"
+  },
+  {
+    "id": "0031",
+    "name": "PhoBo · Горизонт",
+    "country": "ru",
+    "city": "Ростов-на-Дону",
+    "address": "Ростов-на-Дону, проспект Михаила Нагибина, 32И, ТРЦ «Горизонт»",
+    "lat": 47.259898,
+    "lng": 39.719756,
+    "location_precision": "address"
+  },
+  {
+    "id": "0030",
+    "name": "PhoBo · Сити",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Пресненская набережная, 2",
+    "lat": 55.748976,
+    "lng": 37.539486,
+    "location_precision": "address"
+  },
+  {
+    "id": "0029",
+    "name": "PhoBo · Центральный рынок",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Рождественский бульвар, 1",
+    "lat": 55.766762,
+    "lng": 37.623957,
+    "location_precision": "address"
+  },
+  {
+    "id": "0028",
+    "name": "PhoBo · Глобус Владимир",
+    "country": "ru",
+    "city": "Владимир",
+    "address": "Владимир, Суздальский проспект, д. 28",
+    "lat": 56.176447,
+    "lng": 40.458162,
+    "location_precision": "address"
+  },
+  {
+    "id": "0027",
+    "name": "PhoBo · Остров",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, проспект Андропова, 1",
+    "lat": 55.693672,
+    "lng": 37.67627,
+    "location_precision": "address"
+  },
+  {
+    "id": "0026",
+    "name": "PhoBo · Привоз",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, улица Авиаконструктора Миля, 3А",
+    "lat": 55.686547,
+    "lng": 37.851847,
+    "location_precision": "address"
+  },
+  {
+    "id": "0025",
+    "name": "PhoBo · Академическая",
+    "country": "ru",
+    "city": "Санкт-Петербург",
+    "address": "Санкт-Петербург, Гражданский проспект, 41, литера Б, ТРК «Академ-Парк», 3-й этаж",
+    "lat": 60.012456,
+    "lng": 30.398134,
+    "location_precision": "address"
+  },
+  {
+    "id": "0024",
+    "name": "PhoBo · Мега Самара",
+    "country": "ru",
+    "city": "Самара",
+    "address": "Самара, тер. 24 км., Московское шоссе, д. 5",
+    "lat": 53.325846,
+    "lng": 50.305843,
+    "location_precision": "address"
+  },
+  {
+    "id": "0023",
+    "name": "PhoBo · Щёлковский",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Щёлковское шоссе, 75",
+    "lat": 55.810727,
+    "lng": 37.799577,
+    "location_precision": "address"
+  },
+  {
+    "id": "0022",
+    "name": "PhoBo · Хорошо",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Хорошёвское шоссе, 27",
+    "lat": 55.777067,
+    "lng": 37.52455,
+    "location_precision": "address"
+  },
+  {
+    "id": "0021",
+    "name": "PhoBo · Коламбус",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Кировоградская улица, 13А",
+    "lat": 55.611429,
+    "lng": 37.607741,
+    "location_precision": "address"
+  },
+  {
+    "id": "0020",
+    "name": "PhoBo · Ривьера",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Автозаводская улица, 18",
+    "lat": 55.70464,
+    "lng": 37.639576,
+    "location_precision": "address"
+  },
+  {
+    "id": "0019",
+    "name": "PhoBo · Профсоюзная",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, улица Кржижановского, 22, строение 1",
+    "lat": 55.677752,
+    "lng": 37.574562,
+    "location_precision": "address"
+  },
+  {
+    "id": "0018",
+    "name": "PhoBo · Метрополис",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Ленинградское шоссе, 16А, строение 4",
+    "lat": 55.823338,
+    "lng": 37.49737,
+    "location_precision": "address"
+  },
+  {
+    "id": "0017",
+    "name": "PhoBo · Европейский",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, площадь Киевского Вокзала, 2",
+    "lat": 55.744575,
+    "lng": 37.566312,
+    "location_precision": "address"
+  },
+  {
+    "id": "0016",
+    "name": "PhoBo · Проспект Вернадского",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, проспект Вернадского, 6",
+    "lat": 55.692189,
+    "lng": 37.527978,
+    "location_precision": "address"
+  },
+  {
+    "id": "0015",
+    "name": "PhoBo · Атриум",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, улица Земляной Вал, 33",
+    "lat": 55.757222,
+    "lng": 37.659075,
+    "location_precision": "address"
+  },
+  {
+    "id": "0014",
+    "name": "PhoBo · Арма",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Нижний Сусальный переулок, 5, строение 1",
+    "lat": 55.761391,
+    "lng": 37.662993,
+    "location_precision": "address"
+  },
+  {
+    "id": "0013",
+    "name": "PhoBo · Авиапарк",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Ходынский бульвар, 4",
+    "lat": 55.790922,
+    "lng": 37.530598,
+    "location_precision": "address"
+  },
+  {
+    "id": "0012",
+    "name": "PhoBo · Химки",
+    "country": "ru",
+    "city": "Химки",
+    "address": "Московская область, Химки, микрорайон ИКЕА, корпус 2",
+    "lat": 55.9112,
+    "lng": 37.3987,
+    "location_precision": "address"
+  },
+  {
+    "id": "0011",
+    "name": "PhoBo · Тёплый Стан",
+    "country": "ru",
+    "city": "поселение Мосрентген",
+    "address": "Москва, поселение Сосенское, Калужское шоссе, 21-й километр",
+    "lat": 55.603964,
+    "lng": 37.491057,
+    "location_precision": "address"
+  },
+  {
+    "id": "0010",
+    "name": "PhoBo · Саларис",
+    "country": "ru",
+    "city": "поселение Московский",
+    "address": "Москва, Киевское шоссе, 23-й километр, строение 1",
+    "lat": 55.624482,
+    "lng": 37.421734,
+    "location_precision": "address"
+  },
+  {
+    "id": "0009",
+    "name": "PhoBo · МЕГА Белая Дача · 1",
+    "country": "ru",
+    "city": "Котельники",
+    "address": "Московская область, Котельники, 1-й Покровский проезд, 5",
+    "lat": 55.654367,
+    "lng": 37.844203,
+    "location_precision": "address"
+  },
+  {
+    "id": "0008",
+    "name": "PhoBo · Корстон",
+    "country": "ru",
+    "city": "Казань",
+    "address": "Казань, улица Николая Ершова, 1А, фудмолл «Корстон»",
+    "lat": 55.793805,
+    "lng": 49.148642,
+    "location_precision": "address"
+  },
+  {
+    "id": "0007",
+    "name": "PhoBo · Коммуна",
+    "country": "ru",
+    "city": "Воронеж",
+    "address": "Воронеж, проспект Революции, 39, гастрономический рынок «Коммуна»",
+    "lat": 51.66662,
+    "lng": 39.206418,
+    "location_precision": "address"
+  },
+  {
+    "id": "0006",
+    "name": "PhoBo · Краснорядская",
+    "country": "ru",
+    "city": "Рязань",
+    "address": "Рязань, Краснорядская улица, 2",
+    "lat": 54.628616,
+    "lng": 39.735387,
+    "location_precision": "address"
+  },
+  {
+    "id": "0005",
+    "name": "PhoBo · Галерея",
+    "country": "ru",
+    "city": "Воронеж",
+    "address": "Воронеж, Кольцовская улица, 35А, ТРЦ «Галерея Чижова», 4-й этаж",
+    "lat": 51.666435,
+    "lng": 39.192654,
+    "location_precision": "address"
+  },
+  {
+    "id": "0004",
+    "name": "PhoBo · Аркада",
+    "country": "ru",
+    "city": "Рязань",
+    "address": "Рязань, улица Ленина, 9",
+    "lat": 54.623015,
+    "lng": 39.753797,
+    "location_precision": "address"
+  },
+  {
+    "id": "0003",
+    "name": "PhoBo · Новослободская",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, улица Чаянова, 22, строение 4",
+    "lat": 55.777894,
+    "lng": 37.598598,
+    "location_precision": "address"
+  },
+  {
+    "id": "0002",
+    "name": "PhoBo · Намёткина",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, улица Намёткина, 13А",
+    "lat": 55.662653,
+    "lng": 37.55451,
+    "location_precision": "address"
+  },
+  {
+    "id": "0001",
+    "name": "Газетный переулок",
+    "country": "ru",
+    "city": "Москва",
+    "address": "Москва, Газетный пер., д. 3",
+    "lat": 55.757227,
+    "lng": 37.608064,
+    "location_precision": "address"
+  }
+]

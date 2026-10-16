@@ -1,0 +1,38 @@
+/* Readable fallback when scripting is unavailable. */
+.format-panel[hidden] {
+  display:grid!important;
+  margin-top:24px
+}
+
+.step-panel[hidden] {
+  display:block!important;
+  margin-top:24px
+}
+
+.format-tabs,.step-tabs,.step-controls,.menu-toggle,.video-toggle,.phobo-hero__video-btn {
+  display:none
+}
+
+.site-header {
+  height:auto;
+  flex-wrap:wrap;
+  position:relative
+}
+
+.site-header nav {
+  display:flex;
+  position:static;
+  width:100%;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:8px 20px;
+  padding:10px 0;
+  border:0
+}
+
+.lead-form {
+  display:none
+}
+
+
+.home-page .site-header { position:relative; inset:auto; transform:none; visibility:visible; pointer-events:auto; }

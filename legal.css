@@ -1,0 +1,9 @@
+.legal-main .container { max-width:960px; }
+.legal-main .article-heading { max-width:900px; margin-bottom:42px; }
+.legal-main .article-heading h1 { font-size:clamp(32px,4.5vw,54px); overflow-wrap:anywhere; }
+.legal-body { max-width:850px; overflow-wrap:anywhere; }
+.legal-body h2 { font-size:clamp(24px,3vw,32px); line-height:1.25; }
+.legal-body p,.legal-body li { font-size:16px; line-height:1.8; }
+.legal-navigation { display:flex; flex-wrap:wrap; gap:16px 24px; padding-top:28px; margin-top:48px; border-top:1px solid var(--line); font-size:13px; }
+.legal-navigation a { color:var(--green); text-decoration:underline; text-underline-offset:4px; }
+@media(max-width:620px) { .legal-main .container { width:calc(100% - 40px); } .legal-body p,.legal-body li { font-size:15px; } }

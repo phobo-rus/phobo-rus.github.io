@@ -1,0 +1,121 @@
+html.lead-result-open { overflow: hidden; }
+
+.lead-result-dialog {
+  width: min(560px, calc(100vw - 32px));
+  max-width: none;
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 16px;
+  background: #fff;
+  color: #171717;
+  box-shadow: 0 28px 100px #0006;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.lead-result-dialog:not([open]) { display: none; }
+.lead-result-dialog[open] { display: block; }
+.lead-result-dialog::backdrop { background: #000a; }
+.lead-result-shell { position: relative; }
+.lead-result-layout {
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+.lead-result-media { margin: 0; padding: 0; }
+.lead-result-media img { display: block; width: 100%; height: auto; object-fit: contain; }
+.lead-result-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 190px;
+  padding: 52px 24px 34px;
+  background: #f4f2ee;
+  text-align: center;
+}
+.lead-result-placeholder > span { color: #171717; font-size: 48px; font-weight: 700; line-height: 1.2; }
+.lead-result-placeholder > span > span { color: #ae2222; }
+.lead-result-placeholder p { margin: 0; color: #57534e; font-size: 12px; line-height: 1.6; }
+.lead-result-copy { padding: 26px 32px 30px; text-align: center; }
+.lead-result-preview {
+  margin: 0 0 20px;
+  padding: 10px 12px;
+  border: 1px solid #d6c9ae;
+  border-radius: 8px;
+  background: #faf6eb;
+  color: #54401d;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.55;
+}
+.lead-result-preview[hidden] { display: none; }
+.lead-result-copy h2 { margin: 0; color: #171717; font-size: 25px; font-weight: 600; line-height: 1.35; letter-spacing: -.02em; text-wrap: balance; }
+.lead-result-copy > p:not(.lead-result-preview) { margin: 14px 0 0; color: #171717; font-size: 16px; line-height: 1.65; text-wrap: balance; }
+.lead-result-close {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #0002;
+  border-radius: 50%;
+  background: #fff;
+  color: #171717;
+  cursor: pointer;
+  box-shadow: 0 2px 12px #0002;
+}
+.lead-result-close:hover { background: #f0f0f0; }
+.lead-result-close svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.lead-result-done {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  margin: 24px 0 0;
+  padding: 12px 32px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  background: #ae2222;
+  color: #fff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.lead-result-done:hover { background: #921c1c; }
+.lead-result-close:focus-visible,
+.lead-result-done:focus-visible { outline: 3px solid #171717; outline-offset: 3px; }
+.lead-form .form-preview-note { margin: 12px 0 0; color: #555; font-size: 11px; font-weight: 400; line-height: 1.6; text-transform: none; letter-spacing: 0; }
+
+@media (max-width: 480px) {
+  .lead-result-dialog { width: calc(100vw - 24px); border-radius: 12px; }
+  .lead-result-placeholder { min-height: 160px; }
+  .lead-result-placeholder > span { font-size: 40px; }
+  .lead-result-copy { padding: 22px 22px 24px; }
+  .lead-result-copy h2 { font-size: 21px; }
+  .lead-result-copy > p:not(.lead-result-preview) { font-size: 14px; }
+  .lead-result-preview { margin-bottom: 18px; font-size: 11px; }
+  .lead-result-done { width: 100%; margin-top: 22px; }
+  .lead-result-close { top: 8px; right: 8px; }
+}
+
+@media (max-height: 560px) and (min-width: 600px) {
+  .lead-result-placeholder { min-height: 130px; padding: 24px; }
+  .lead-result-placeholder > span { font-size: 34px; }
+  .lead-result-copy { padding: 18px 24px 20px; }
+  .lead-result-copy h2 { font-size: 21px; }
+  .lead-result-done { margin-top: 16px; }
+}

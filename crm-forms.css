@@ -1,0 +1,103 @@
+/* PhoBo's approved form layout, applied to the native Bitrix controls. */
+.crm-form-host { width:100%; min-width:0; }
+.crm-load-status { margin:0 0 20px; font-size:15px; }
+.crm-load-fallback { padding:24px; border:1px solid currentColor; border-radius:12px; font-size:15px; line-height:1.65; }
+.crm-load-fallback a { display:inline-block; margin:12px 20px 0 0; text-decoration:underline; text-underline-offset:3px; }
+.crm-form-documents { margin:20px 0 0; font-size:11px; line-height:1.7; color:#62645e; }
+.crm-form-documents a { text-decoration:underline; text-underline-offset:3px; }
+.lead-section-mid .crm-form-documents { color:#e2eae4; }
+.crm-form-host .b24-form-wrapper { max-width:none!important; margin:0!important; background:transparent!important; border:0!important; box-shadow:none!important; color:inherit!important; }
+.crm-form-host .b24-form { font-family:Montserrat,Arial,sans-serif!important; }
+.crm-form-host .b24-form-content { padding:0!important; }
+.crm-form-host .b24-form-content form { margin:0!important; }
+.crm-form-host .b24-form-header { display:none!important; }
+.crm-form-host .crm-appearance-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:30px 28px; }
+.crm-form-compact .crm-appearance-fields { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.crm-form-host .b24-form-field { min-width:0; margin-bottom:0!important; }
+.crm-form-host .crm-appearance-comment { grid-column:1 / -1; }
+.crm-form-host .crm-appearance-field .b24-form-control-container { display:flex; flex-direction:column; min-width:0; padding:0!important; }
+.crm-form-host .crm-appearance-field .b24-form-control-label {
+  position:static!important; inset:auto!important; order:-1; display:block!important;
+  width:auto!important; height:auto!important; min-height:0!important; max-height:none!important;
+  margin:0 0 8px!important; padding:0!important; transform:none!important;
+  font-family:Montserrat,Arial,sans-serif!important; font-size:12px!important;
+  font-weight:650!important; line-height:1.6!important; letter-spacing:.08em!important;
+  text-transform:uppercase!important; white-space:normal!important; color:#62645e!important;
+  opacity:1!important; pointer-events:auto!important;
+}
+.crm-form-host .crm-appearance-field .b24-form-control {
+  display:block!important; width:100%!important; min-width:0; height:auto!important; min-height:0!important;
+  padding:16px 0!important; margin:0!important; border:0!important;
+  border-bottom:1px solid #b9beb4!important; border-radius:0!important; background:transparent!important;
+  box-shadow:none!important; color:#1a1a1a!important; font-family:Montserrat,Arial,sans-serif!important;
+  font-size:17px!important; font-weight:400!important; line-height:1.4!important;
+  transition:border-color .2s;
+}
+.crm-form-host .crm-appearance-field .b24-form-control::placeholder { color:#7a7c75!important; opacity:1!important; }
+.crm-form-host .crm-appearance-field .b24-form-control:focus { border-bottom-color:#ae2222!important; }
+.crm-form-host .crm-appearance-field .b24-form-control:focus-visible { outline:2px solid #ae2222!important; outline-offset:5px; }
+.crm-form-host .crm-appearance-field textarea.b24-form-control { height:calc(1.4em + 33px)!important; min-height:calc(1.4em + 33px)!important; max-height:none!important; resize:vertical!important; }
+.crm-form-host .crm-appearance-field .b24-form-control-comment { display:none!important; }
+.crm-form-host .b24-form-control-alert-message { position:relative!important; top:auto!important; left:0!important; margin-top:8px; padding:0!important; background:transparent!important; font-family:Montserrat,Arial,sans-serif!important; font-size:13px!important; line-height:1.5!important; color:#9b2020!important; }
+.crm-form-host .b24-form-control-alert-message::before,
+.crm-form-host .b24-form-control-alert-message::after { display:none!important; }
+.crm-form-host .crm-appearance-field .b24-form-control[aria-invalid="true"] { border-bottom:2px solid #ae2222!important; }
+.crm-form-host .b24-form-field-agreement { margin-top:26px!important; grid-column:1 / -1; }
+.crm-form-host .crm-appearance-fields > .b24-form-field-agreement { margin-top:-4px!important; }
+.crm-form-host .b24-form-field-agreement .b24-form-control-container { padding:0!important; }
+.crm-form-host .b24-form-field-agreement label { display:flex!important; align-items:flex-start!important; gap:12px!important; margin:0!important; padding:0!important; cursor:pointer; }
+.crm-form-host .b24-form-field-agreement input[type="checkbox"] {
+  appearance:auto!important; display:block!important; position:static!important;
+  flex:0 0 18px!important; width:18px!important; height:18px!important;
+  margin:2px 0 0!important; padding:0!important; opacity:1!important; visibility:visible!important;
+  clip:auto!important; clip-path:none!important; transform:none!important; accent-color:#ae2222;
+}
+.crm-form-host .b24-form-field-agreement .b24-form-control-desc { display:block!important; padding:0!important; margin:0!important; color:#62645e!important; font-family:Montserrat,Arial,sans-serif!important; font-size:12px!important; font-weight:400!important; line-height:1.7!important; letter-spacing:0!important; text-transform:none!important; opacity:1!important; }
+.crm-form-host .b24-form-field-agreement .b24-form-control-desc::before,
+.crm-form-host .b24-form-field-agreement .b24-form-control-desc::after,
+.crm-form-host .b24-form-field-agreement label > .b24-form-control-required { display:none!important; }
+.crm-form-host [data-phobo-consent-link] { color:inherit!important; text-decoration:underline!important; text-underline-offset:3px; }
+.crm-form-host .b24-form-btn-container { display:flex!important; align-items:center!important; justify-content:flex-start!important; flex-wrap:wrap; gap:24px; margin:34px 0 0!important; padding:0!important; }
+.crm-form-host .b24-form-btn-block { width:auto!important; flex:0 0 auto!important; padding:0!important; }
+.crm-form-host .b24-form-btn {
+  display:inline-flex!important; align-items:center!important; justify-content:center!important;
+  width:auto!important; min-width:240px; min-height:56px!important; height:auto!important;
+  margin:0!important; padding:14px 28px!important; border:0!important; border-radius:100px!important;
+  background:#ae2222!important; color:#fff!important; font-family:Montserrat,Arial,sans-serif!important;
+  font-size:14px!important; font-weight:600!important; line-height:1.6!important; text-transform:none!important;
+  box-shadow:none!important; transition:background .2s,transform .2s;
+}
+.crm-form-host .b24-form-btn:hover { background:#921c1c!important; transform:translateY(-2px); }
+.crm-form-host .b24-form-btn:disabled { opacity:.68; cursor:wait; }
+.crm-form-host .b24-form-sign { margin-top:20px!important; font-family:Montserrat,Arial,sans-serif!important; }
+.crm-form-host .b24-form-sign-abuse-link { font-size:11px!important; line-height:1.7!important; color:#62645e!important; opacity:1!important; }
+.lead-section-mid .crm-form-host .crm-appearance-field .b24-form-control { color:#fff!important; border-bottom-color:#a7c6bb!important; }
+.lead-section-mid .crm-form-host .crm-appearance-field .b24-form-control::placeholder { color:#d6e0d8!important; }
+.lead-section-mid .crm-form-host .crm-appearance-field .b24-form-control-label,
+.lead-section-mid .crm-form-host .b24-form-control-required,
+.lead-section-mid .crm-form-host .b24-form-control-desc,
+.lead-section-mid .crm-form-host .b24-form-control-desc a,
+.lead-section-mid .crm-form-host .b24-form-sign-abuse-link { color:#e2eae4!important; }
+.lead-section-mid .crm-form-host .crm-appearance-field .b24-form-control:focus { border-bottom-color:#fff!important; }
+.lead-section-mid .crm-form-host .crm-appearance-field .b24-form-control:focus-visible,
+.lead-section-mid .crm-form-host .b24-form-btn:focus-visible { outline-color:#fff!important; }
+.lead-section-mid .crm-form-host .crm-appearance-field .b24-form-control[aria-invalid="true"] { border-bottom-color:#ffe1d9!important; }
+.lead-section-mid .crm-form-host .b24-form-control-alert-message { color:#ffe1d9!important; }
+.lead-section-mid .crm-form-host .b24-form-btn { background:#f6f1e8!important; color:#1b6457!important; }
+.lead-section-mid .crm-form-host .b24-form-btn:hover { background:#fff!important; }
+@media(max-width:767px) {
+  .crm-form-host .crm-appearance-fields,.crm-form-compact .crm-appearance-fields { grid-template-columns:minmax(0,1fr); gap:24px; }
+  .crm-form-host .crm-appearance-comment { grid-column:auto; }
+  .crm-form-host .crm-appearance-fields > .b24-form-field-agreement { margin-top:2px!important; }
+  .crm-form-host .crm-appearance-field .b24-form-control { font-size:16px!important; }
+  .crm-form-host .b24-form-btn-container { align-items:stretch!important; flex-direction:column; gap:18px; }
+  .crm-form-host .b24-form-btn-block { width:100%!important; }
+  .crm-form-host .b24-form-btn { width:100%!important; min-width:0; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .crm-form-host .crm-appearance-field .b24-form-control,.crm-form-host .b24-form-btn { transition:none; }
+  .crm-form-host .b24-form-btn:hover { transform:none; }
+}
+/* The controller opens PhoBo's dialog only after native delivery confirmation. */
+.crm-form-host .b24-form-success { display:none!important; }
+.crm-form-host[data-crm-delivered="true"] .b24-form-content { display:block!important; }
